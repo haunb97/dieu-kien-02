@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11</title>
+</head>
+<body>
+<script>
+    let thunhap = parseInt(prompt('nhập vào số tiền thu nhập của bạn trong 1 tháng ( triệu đồng)'));
+    let thue ;
+    if(thunhap>5) {
+        if(thunhap>10){
+            if(thunhap>18){
+                thue = thunhap*0.2
+
+            }
+            else {thue = thunhap*0.15
+
+
+            }
+        }
+        else {
+            thue = thunhap*0.1
+
+        }
+    }else {
+        thue = thunhap*0.05
+
+    }
+
+    alert('Tiền thuế bạn phải nộp hàng tháng là :'+thue +' triệu đồng')
+
+
+</script>
+</body>
+</html>
